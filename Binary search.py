@@ -5,12 +5,12 @@ def binarySearch(a,x):
     while(1 <= h):
         mid = (l + h) // 2
         if a[mid] == x:
-            return mid
+            return mid      # Element x found at position mid
         elif a[mid] > x:
-            h = mid - l
+            h = mid - l     # Search in left half
         else:
-            l = mid + l
-    return -1
+            l = mid + l     # Search in right half
+    return -1               # Element x not found
 
 # Common driver code
 a = []
