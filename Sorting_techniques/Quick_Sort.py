@@ -1,3 +1,4 @@
+
 def partition(a,l,u): # a = Array, l = Lower bound, u = upper bound 
     p = a[l]
     i = l
