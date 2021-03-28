@@ -21,6 +21,8 @@ def display(q, front, rear):
     else:
         print(f"Updated Queue: {q}")
 
+# Driver Code
+
 front = 0
 rear = 0
 max = 100
