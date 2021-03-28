@@ -1,8 +1,0 @@
-a = []
-n = int(input("Enter number of elements: "))
-for i in range(n):
-    ele = int(input(f"Enter element no. {i}: "))
-    a.append(ele)
-
-functionHere()
-print (a)
